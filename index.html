@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+    <title>vnExpress Clone</title>
+</head>
+<body>
+    <div class="app">
+        <div class="header_container">
+            <div class="header_first">
+                <div class="first_content">
+                    <img src="./images/logo-vnexpress.svg" alt="">
+                    <span class="first_day">Thứ tư, 11/05/2022</span>
+                </div>
+                <div class="second_content">
+                    <span class="second_new">
+                        <icon class="ti-timer"></icon>
+                        Mới nhất
+                    </span>
+                    <span class="second_international margin-right">
+                        <img class="second_international-img" src="./images/New Bitmap Image (2).bmp" alt="">
+                        International
+                    </span>
+                    <div class="second_input">
+                        <input type="text" class="input_element" placeholder="TÌM KIẾM">
+                        <icon class="ti-search"></icon>
+                    </div>
+                    <div class="second_login">
+                        <icon class="ti-user"></icon>
+                        <span class="login_user">Đăng nhập</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header_second">
+                <span class="home_icon">
+                    <icon class="ti-home"></icon>
+                </span>
+                <ul class="header_list">
+                    <li title="Thời sự"><a href="">Thời sụ</a>
+                            <ul class="header_list_child">
+                                <li><a href="">Chính trị</a></li>
+                                <li><a href="">Dân sinh</a></li>
+                                <li><a href="">Lao động - Việc làm</a></li>
+                                <li><a href="">Giao thông</a></li>
+                                <li><a href="">Mekong</a></li>
+                                <li><a href="">Quỹ Hy vọng</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="">Góc nhìn</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Thế giới</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Video</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Podcasts</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Kinh doanh</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Khoa học</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Giải trí</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Thể thao</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Pháp luật</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Giáo dục</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Sức khỏe</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Đời sống</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Du lịch</a>
+                        <ul class="header_list_child">
+                            <li><a href="">Chính trị</a></li>
+                            <li><a href="">Dân sinh</a></li>
+                            <li><a href="">Lao động - Việc làm</a></li>
+                            <li><a href="">Giao thông</a></li>
+                            <li><a href="">Mekong</a></li>
+                            <li><a href="">Quỹ Hy vọng</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="header_all_container">
+                    <span class="header_all">Tất cả</span>
+                    <icon class="ti-menu"></icon>
+                    <div class="header_all-list">
+                        <div class="header_all-list_heading">
+                            <h3 class="header_all-list_heading-title">Tất cả chuyên mục</h3>
+                            <span class="header_all-list_heading-close">
+                                Đóng
+                                <icon class="ti-close"></icon>
+                            </span>
+                        </div>
+                        <div class="header_all-list_content_container">
+                            <div class="header_all-list_content">
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Thời sự</h3>
+                                    <h3 class="header_all-list_item-description">Chính trị</h3>
+                                    <h3 class="header_all-list_item-description">Dân sinh</h3>
+                                    <h3 class="header_all-list_item-description">Lao động - Việc làm</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Giao thông</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Góc nhìn</h3>
+                                    <h3 class="header_all-list_item-description">Bình luận nhiều</h3>
+                                    <h3 class="header_all-list_item-description">Covid 19</h3>
+                                    <h3 class="header_all-list_item-description">Chính trị & chính sách</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Y tế & sức khỏe</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Thế giới</h3>
+                                    <h3 class="header_all-list_item-description">Tư liệu</h3>
+                                    <h3 class="header_all-list_item-description">Phân tích</h3>
+                                    <h3 class="header_all-list_item-description">Người Việt 5 châu</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Cuộc sống đó đây</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Video</h3>
+                                    <h3 class="header_all-list_item-description">Thời sự</h3>
+                                    <h3 class="header_all-list_item-description">Nhịp sống</h3>
+                                    <h3 class="header_all-list_item-description">Food</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Tôi kể</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Podcasts</h3>
+                                    <h3 class="header_all-list_item-description">VnExpress hôm nay</h3>
+                                    <h3 class="header_all-list_item-description">Ly hôn</h3>
+                                    <h3 class="header_all-list_item-description">Thầm thì</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bạn ổn không?</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                                <div class="header_all-list_item">
+                                    <h3 class="header_all-list_item-title">Kinh doanh</h3>
+                                    <h3 class="header_all-list_item-description">Quốc tế</h3>
+                                    <h3 class="header_all-list_item-description">Doanh nghiệp</h3>
+                                    <h3 class="header_all-list_item-description">Chứng khoán</h3>
+                                    <h3 class="header_all-list_item-description header_all-list_item-description-1">Bất động sản</h3>
+                                    <h3 class="header_all-list_item-more">Xem thêm</h3>
+                                </div>
+                            </div>
+
+                            <div class="header_all-list_content_right">
+                                <h3 class="header_all-list_content_right-title">Podcasts</h3>
+                                <h3 class="header_all-list_content_right-title">Ảnh</h3>
+                                <h3 class="header_all-list_content_right-title header_all-list_content_right-title-1">Infographics</h3>
+                                <h3 class="header_all-list_content_right-title">Mới nhất</h3>
+                                <h3 class="header_all-list_content_right-title">Xem nhiều</h3>
+                                <h3 class="header_all-list_content_right-title header_all-list_content_right-title-1">Tin nóng</h3>
+                                <h3 class="header_all-list_content_right-title-2">Rao vặt</h3>
+                                <h3 class="header_all-list_content_right-title-2">Startup</h3>
+                                <h3 class="header_all-list_content_right-title-2">Mua ảnh VnExpress</h3>
+                                <h3 class="header_all-list_content_right-title-2">Vhome</h3>
+                                <h3 class="header_all-list_content_right-title-2">eBox</h3>
+                                <h3 class="header_all-list_content_right-title-2">eWork</h3>
+
+
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_container">
+            <div class="first_container">
+                <div class="first_container-left">
+                    <div class="container-left-image">
+                        <img class="container-left-img" src="./images/news_1.jpg" alt="">
+                    </div>
+                    <div class="container-left-news">
+                        <h3 class="container-left-news-title">Giá xăng có thể tăng mạnh</h3>
+                        <p class="container-left-news-description">Mỗi lít xăng có thể tăng
+                            800-1.600 đồng một lít, 
+                            tùy vào việc nhà điều hành có sử dụng
+                            Quỹ bình ổn hay không.</p>
+                        <span class="container-left-news-more">Kinh doanh</span>
+                        <span class="container-left-news-more-1">
+                            <icon class="ti-themify-favicon"></icon>
+                            105</span>
+                    </div>
+                    <div class="container-left-news background-color">
+                        <h3 class="container-left-news-title">Hồ sơ mua bán nhà đất bị trả vì 'khai giá quá thấp'</h3>
+                        <p class="container-left-news-description">Cứ 5 hồ sơ chuyển nhượng đất nộp lên, một bị trả về vì "khai giá quá thấp". Trong quý 1, cơ quan thuế TP HCM thu thêm 147 tỷ đồng song thời gian làm thủ tục bị kéo dài.
+                            <span class="container-left-news-more-1">
+                            <icon class="ti-themify-favicon"></icon>
+                            134</span></p>
+                    </div>
+                    <div class="container-left-news background-color">
+                        <h3 class="container-left-news-title">Lạng Sơn mưa lớn, nhiều tuyến đường ngập</h3>
+                        <p class="container-left-news-description">Trong 12 giờ qua, huyện Bắc Sơn (Lạng Sơn) ghi nhận mưa 260 mm khiến toàn huyện bị cô lập, khoảng 20 điểm ngập, sạt lở, một người chết.</p>
+                    </div>
+                    <div class="container-left-news container-left-news-after background-color">
+                        <h3 class="container-left-news-title">'Phần hồn' flagship</h3>
+                        <p class="container-left-news-description">Doanh nghiệp phải hiểu khách hàng đến mức độ nhất định mới có thể thành công với những cửa hàng flagship.</p>
+                        <h4 class="container-left-news-author">Đỗ Trung Thông</h4>
+                        <span class="container-left-news-more-1">
+                            <icon class="ti-themify-favicon"></icon>
+                            15</span></p>
+                    </div>
+                </div>
+                <div class="first_container-right">
+                    <img  class="container-right-img" src="./images/picture_1.png" alt="">
+                </div>
+            </div>
+
+            <div class="second_container">
+                <div class="first_container-1">
+                    <div class="first_container-1_news">
+                        <h3 class="first_container-1_news-title">Phó công an phường đánh dân bị 'ra khỏi ngành'</h3>
+                        <div class="first_container-1_news-content">
+                            <img src="./images/news_2.jpg" class="first_container-1_news-img" alt="">
+                            <p class="first_container-1_news-description">CAO BẰNG - Trung tá Đặng Đình Đoàn bị cách chức phó Công an phường Sông Bằng và "cho thôi phục vụ trong ngành công an.
+                                <span class="container-left-news-more-1">
+                                <icon class="ti-themify-favicon"></icon>
+                                191</span></p>
+                        </div>
+                    </div>
+                    <div class="first_container-1_news margin-top">
+                        <h3 class="first_container-1_news-title">Lạng Sơn mưa lớn, nhiều tuyến đường ngập</h3>
+                        <div class="first_container-1_news-content">
+                            <img src="./images/news_3.jpg" class="first_container-1_news-img" alt="">
+                            <p class="first_container-1_news-description">Trong 12 giờ qua, huyện Bắc Sơn (Lạng Sơn) ghi nhận mưa 260 mm khiến toàn huyện bị cô lập, khoảng 20 điểm ngập, sạt lở, một người chết.</p>
+                        </div>
+                    </div>
+                    <div class="first_container-1_news margin-top">
+                        <h3 class="first_container-1_news-title">Philippines, Indonesia trước cơ hội tích điểm ở bảng A</h3>
+                        <div class="first_container-1_news-content">
+                            <img src="./images/news_4.jpg" class="first_container-1_news-img" alt="">
+                            <p class="first_container-1_news-description">PHÚ THỌ - Philippines và Indonesia nhiều khả năng giành chiến thắng khi gặp Myanmar và Timor Leste ở lượt ba bóng đá nam SEA Games 31 hôm nay 10/5.
+                                <span class="container-left-news-more-1">
+                                <icon class="ti-themify-favicon"></icon>
+                                11</span></p>
+                        </div>
+                    </div>
+                    <div class="first_container-1_news border-none margin-top">
+                        <h3 class="first_container-1_news-title">Ông Biden lo Tổng thống Putin 'không có lối thoát' ở Ukraine</h3>
+                        <div class="first_container-1_news-content">
+                            <img src="./images/news_5.jpg" class="first_container-1_news-img" alt="">
+                            <p class="first_container-1_news-description">Tổng thống Mỹ Biden bày tỏ lo ngại Tổng thống Nga Putin không có lối thoát trong chiến sự Ukraine và Washington đang cố tìm cách giải quyết.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second_container-2">
+                    <div class="second_container-2_header">
+                        <h3 class="header_title">Kinh doanh</h3>
+                        <h3 class="header_title">Quốc tế</h3>
+                        <h3 class="header_title">Doanh nghiệp</h3>
+                        <h3 class="header_title">Chứng khoán</h3>
+                        <h3 class="header_title">Bất động sản</h3>
+                        <h3 class="header_title">Bảo hiểm</h3>
+                        <h3 class="header_title">E-Commerce 4.0</h3>
+                        
+                    </div>
+
+                    <div class="second_container-2_content_container">
+                        <div class="second_container-2_content">
+                            <img  class="second_container-2_content-img" src="./images/picture_2.png" alt="">
+                            <div class="second_container-2_content-reading">
+                                <h3 class="second_container-2_content-title">Giá Bitcoin thấp nhất gần một năm</h3>
+                                <p class="second_container-2_content-description">Tiền số sáng nay có lúc xuống sát 29.800 USD, lần đầu dưới 30.000 USD kể từ giữa năm ngoái.
+                                    <span class="container-left-news-more-1">
+                                    <icon class="ti-themify-favicon"></icon>
+                                    28</span></p>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="second_container-2_more">
+                            <div class="second_container-2_content-reading">
+                                <h3 class="second_container-2_content-title">Đề xuất cơ chế đặc thù phát triển ngành thép</h3>
+                                <p class="second_container-2_content-description">Bộ Công Thương cho rằng phần lớn doanh nghiệp thép dùng công nghệ cũ nên sản xuất và cạnh tranh thấp, cần chính sách đặc thù để ngành này ... 
+                                    <span class="container-left-news-more-1">
+                                    <icon class="ti-themify-favicon"></icon>
+                                    30</span></p>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="second_container-2_more-news">
+                    <h3 class="second_container-2_more-news-first">El Salvador mua thêm 15,5 triệu USD Bitcoin
+                        <span class="container-left-news-more-1 icon-font-size">
+                            <icon class="ti-themify-favicon"></icon>
+                            10</span>
+                    </h3>
+                    <h3 class="second_container-2_more-news-first">Vàng, chứng khoán Mỹ bị bán tháo
+                        <span class="container-left-news-more-1 icon-font-size">
+                            <icon class="ti-themify-favicon"></icon>
+                            16</span>
+                    </h3>
+                    <h3 class="second_container-2_more-news-first">Công ty Mỹ khó chuyển sản xuất về gần nhà
+                        <span class="container-left-news-more-1 icon-font-size">
+                            <icon class="ti-themify-favicon"></icon>
+                            2</span>
+                    </h3>
+                </div>
+
+                <div class="second_container-2_advertisement">
+                    <img class="second_container-2_advertisement-img" src="./images/news_6.jpg" alt="">
+                    <div class="second_container-2_advertisement-table">
+                        <table>
+                            <thead>
+                                <th>Giá vàng</th>
+                                <th>Mua</th>
+                                <th>Bán</th>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Vàng SJC (triệu động/lượng)</td>
+                                    <td>69.4</td>
+                                    <td>70.1</td>
+                                </tr>
+                                <tr>
+                                    <td>Thế giới (USD/ounce</td>
+                                    <td>1.862.5</td>
+                                    <td>1.863</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="second_container-2_advertisement-logo">
+                        <img class="second_container-2_advertisement-logo-1" src="./images/logo-startup.svg" alt="">
+                        <img class="second_container-2_advertisement-logo-1" src="./images/logo-vhome.svg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="second_container-2_header">
+                    <h3 class="header_title">Thể thao</h3>
+                    <h3 class="header_title">31st SEA GAME</h3>
+                    <h3 class="header_title">Bóng đá</h3>
+                    <h3 class="header_title">Lịch thi đấu</h3>
+                    <h3 class="header_title">Tennis</h3>
+                    <h3 class="header_title">VM 2022</h3>
+                    <h3 class="header_title">V-Race</h3>
+                    
+                </div>
+
+                <div class="second_container-2_content_container border-none">
+                    <div class="second_container-2_content">
+                        <img  class="second_container-2_content-img height" src="./images/news_7.jpg" alt="">
+                        <div class="second_container-2_content-reading">
+                            <h3 class="second_container-2_content-title">Hoàng Đức phải tập riêng</h3>
+                            <p class="second_container-2_content-description">PHÚ THỌTiền vệ Nguyễn Hoàng Đức được bác sỹ Choi chăm sóc khi Việt Nam trở lại tập luyện trưa 10/5.
+                                <span class="container-left-news-more-1">
+                                <icon class="ti-themify-favicon"></icon>
+                                28</span></p>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="second_container-2_more">
+                        <div class="second_container-2_content-reading">
+                            <h3 class="second_container-2_content-title">Philippines, Indonesia trước cơ hội tích điểm ở bảng A</h3>
+                            <p class="second_container-2_content-description">PHÚ THỌPhilippines và Indonesia nhiều khả năng giành chiến thắng khi gặp Myanmar và Timor Leste ở ...  
+                                <span class="container-left-news-more-1">
+                                <icon class="ti-themify-favicon"></icon>
+                                30</span></p>
+                            </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="content_container_separate">
+            <h3 class="content_container_separate-title color">
+                <icon class="ti-stats-up"></icon>
+                Chủ đề</h3>
+            <h3 class="content_container_separate-title">Lương tối thiểu</h3>
+            <h3 class="content_container_separate-title">Mở cửa du lịch</h3>
+            <h3 class="content_container_separate-title">Nga mở chiến dịch quân sự ở Ukraine</h3>
+        </div>
+
+        <div class="content_container_image-ad">
+            <img class="content_container_image-ad-img" src="./images/Capture.JPG" alt="">
+        </div>
+
+        <div class="content_container_more-infor">
+            <h3 class="content_container_more-item-title">Podcasts</h3>
+            <div class="content_container_more-item-container">
+                <div class="content_container_more-item">
+                    <div class="content_container_more-item-container">
+                        <h4 class="content_container_more-item-title-1">Điểm tin: Ông Marcos đắc cử Tổng thống Philippines; Myanmar đẩy Việt Nam xuống thứ ba bảng A</h4>
+                        <img class="content_container_more-item-img" src="./images/news_8.jpg" alt="">
+                    </div>
+                    <p class="content_container_more-item-description">Giám đốc CDC Hậu Giang bị cách hết chức vụ; Miền Bắc chuẩn bị đón không khí lạnh hiếm gặp; Nhật...</p>
+                </div>
+                <div class="content_container_more-item content_container_more-item-1">
+                    <div class="content_container_more-item-container">
+                        <h4 class="content_container_more-item-title-1">Người Việt tại Ấn Độ: 'Nóng kinh hoàng, điện cúp hơn chục lần mỗi ngày'</h4>
+                        <img class="content_container_more-item-img" src="./images/news_9.jpg" alt="">
+                    </div>
+                    <p class="content_container_more-item-description">15 năm sống tại Kokalta, chị Minh nói, đây là lần đầu vật lộn nắng nóng 45 độ C, trong khi điện...</p>
+                </div>
+                <div class="content_container_more-item">
+                    <div class="content_container_more-item-container">
+                        <h4 class="content_container_more-item-title-1">Mất trợ cấp F0 vì giấy nghỉ ốm lệch ngày</h4>
+                        <img class="content_container_more-item-img" src="./images/news_10.jpg" alt="">
+                    </div>
+                    <p class="content_container_more-item-description">3 lần nộp hồ sơ để hưởng trợ cấp nhiễm Covid-19, chị Mai không được BHXH giải quyết vì giấy nghỉ ốm...</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content_container_last">
+            <div class="content_container_last-item">
+                <div class="content_container_last-header">
+                    <h3 class="content_container_last-header-title header-title__modifined">Thời sự</h3>
+                    <h3 class="content_container_last-header-title">Chính trị</h3>
+                    <h3 class="content_container_last-header-title">Lao động - Việc làm</h3>
+                    <h3 class="content_container_last-header-title">Dân sinh</h3>
+                </div>
+                <img class="content_container_last-img" src="./images/news_11.jpg" alt="">
+                <h3 class="content_container_last-title">Đục gốc cây 'dụ' ong rừng làm tổ</h3>
+                <p class="content_container_last-desription">KON TUM - Mùa xuân, người Xê Đăng ở huyện Tu Mơ Rông khoét những hốc trên thân cổ thụ cho ong rừng vào làm tổ, đợi mùa hè lấy mật.</p>
+                <h3 class="content_container_last-title">Nhiều tỉnh công bố kết quả thanh tra mua thiết bị y tế chống dịch</h3>
+                <p class="content_container_last-desription description-border-none">Kiên Giang, Đồng Tháp, Trà Vinh, Bà Rịa - Vũng Tàu công bố thanh tra mua sắm trang thiết bị y tế phòng chống Covid-19 ở địa bàn, trong đó nêu một số sai phạm.</p>
+            </div>
+            <div class="content_container_last-item">
+                <div class="content_container_last-header">
+                    <h3 class="content_container_last-header-title header-title__modifined">Thời sự</h3>
+                    <h3 class="content_container_last-header-title">Tư liệu</h3>
+                    <h3 class="content_container_last-header-title">Phân tích</h3>
+                </div>
+                <img class="content_container_last-img" src="./images/news_12.jpg" alt="">
+                <h3 class="content_container_last-title">Tuần dương hạm Mỹ đi qua eo biển Đài Loan</h3>
+                <p class="content_container_last-desription">Tuần dương hạm Port Royal của Mỹ đi qua eo biển Đài Loan sau khi hải quân và không quân Mỹ diễn tập quanh hòn đảo. </p>
+                <h3 class="content_container_last-title">Nghị sĩ Canada họp trực tuyến từ nhà vệ sinh</h3>
+                <p class="content_container_last-desription description-border-none">Nghị sĩ đảng Tự do Canada Shafqat Ali phải lên tiếng xin lỗi sau khi bị phát hiện dự một phiên họp quốc hội qua mạng từ nhà vệ sinh. </p>
+            </div>
+            <div class="content_container_last-item">
+                <div class="content_container_last-header">
+                    <h3 class="content_container_last-header-title header-title__modifined">Pháp luật</h3>
+                    <h3 class="content_container_last-header-title">Hồ sơ phá án</h3>
+                    <h3 class="content_container_last-header-title">Tư vấn</h3>
+                </div>
+                <img class="content_container_last-img" src="./images/news_13.jpg" alt="">
+                <h3 class="content_container_last-title">Người dân có quyền yêu cầu cung cấp những thông tin nào?</h3>
+                <p class="content_container_last-desription">Người dân có quyền được các cơ quan nhà nước cung cấp thông tin một cách đầy đủ, kịp thời, chính xác; nếu bị từ chối có thể khiếu nại, khởi kiện . </p>
+                <h3 class="content_container_last-title">Chuyển trái phép hơn 8 tạ thuốc nổ vào Nam</h3>
+                <p class="content_container_last-desription description-border-none">QUẢNG BÌNH - Thụ và Toản đang vận chuyển 21 bao tải chứa 820 kg thuốc nổ lên xe tải vào các tỉnh phía Nam tiêu thụ thì bị bắt giữ. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer_container">
+        <div class="first_footer_container">
+            <div class="first_footer-left">
+                <div class="first_footer_left-item">
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Trang chủ</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Video</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Podcasts</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Ảnh</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined first_footer_left-title-modifined-1">Infographics</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined ">Mới nhất</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Xem nhiều</h3>
+                    <h3 class="first_footer_left-title first_footer_left-title-modifined">Tin nóng</h3>
+                </div>
+                <div class="first_footer_left-item">
+                    <h3 class="first_footer_left-title">Thời sự</h3>
+                    <h3 class="first_footer_left-title">Góc nhìn</h3>
+                    <h3 class="first_footer_left-title">Thế giới</h3>
+                    <h3 class="first_footer_left-title">Kinh doanh</h3>
+                    <h3 class="first_footer_left-title">Giải trí</h3>
+                </div>
+                <div class="first_footer_left-item">
+                    <h3 class="first_footer_left-title">Thể thao</h3>
+                    <h3 class="first_footer_left-title">Pháp luật</h3>
+                    <h3 class="first_footer_left-title">Giáo dục</h3>
+                    <h3 class="first_footer_left-title">Sức khỏe</h3>
+                    <h3 class="first_footer_left-title">Đời sống</h3>
+                    <h3 class="first_footer_left-title">Du lịch</h3>
+                </div>
+                <div class="first_footer_left-item">
+                    <h3 class="first_footer_left-title">Khoa học</h3>
+                    <h3 class="first_footer_left-title">Số hóa</h3>
+                    <h3 class="first_footer_left-title">Podcasts</h3>
+                    <h3 class="first_footer_left-title">Xe</h3>
+                    <h3 class="first_footer_left-title">Ý kiến</h3>
+                    <h3 class="first_footer_left-title">Tâm sự</h3>
+                    <h3 class="first_footer_left-title">Hài</h3>
+                </div>
+                <div class="first_footer_left-item first_footer_left-modifined">
+                    <h3 class="first_footer_left-title">Rao vặt</h3>
+                    <h3 class="first_footer_left-title">Startup</h3>
+                    <h3 class="first_footer_left-title">Mua ảnh VnExpress</h3>
+                    <h3 class="first_footer_left-title">Vhome</h3>
+                    <h3 class="first_footer_left-title">eBox</h3>
+                    <h3 class="first_footer_left-title">eWork</h3>
+                </div>
+            </div>
+
+            <div class="first_footer-right">
+                <h3 class="first_footer-right-header">Tải ứng dụng</h3>
+                <div class="first_footer-right-download">
+                    <div class="first_footer-right-download-left">
+                        <img class="first_footer-right-download-left-img" src="./images/New Bitmap Image (2).bmp" alt="">
+                        <h3 class="first_footer-right-download-left-title">VnEpress</h3>
+                    </div>
+                    <div class="first_footer-right-download-left">
+                        <img class="first_footer-right-download-left-img" src="./images/New Bitmap Image.bmp" alt="">
+                        <h3 class="first_footer-right-download-left-title">International</h3>
+                    </div>
+                </div>
+                <h3 class="first_footer-right-header">Liên hệ</h3>
+                <div class="first_footer-right-download first_footer-right-download-1">
+                    <div class="first_footer-right-download-left">
+                        <img class="first_footer-right-download-left-img" src="./images/New Bitmap Image (3).bmp" alt="">
+                        <h3 class="first_footer-right-download-left-title">Tòa soạn</h3>
+                    </div>
+                    <div class="first_footer-right-download-left">
+                        <img class="first_footer-right-download-left-img" src="./images/New Bitmap Image (5).bmp" alt="">
+                        <h3 class="first_footer-right-download-left-title">Quảng cáo</h3>
+                    </div>
+                    <div class="first_footer-right-download-left first_footer-right-download-left-1">
+                        <img class="first_footer-right-download-left-img first_footer-right-download-left-img-1" src="./images/New Bitmap Image (4).bmp" alt="">
+                        <h3 class="first_footer-right-download-left-title">Hợp tác bản quyền</h3>
+                    </div>
+                </div>
+
+                <h3 class="first_footer-right-header first_footer-right-header-2">Đường dây nóng</h3>
+                <div class="first_footer-right-download">
+                    <div class="first_footer-right-download-left-2">
+                        <h3 class="first_footer-right-download-left-title">083.888.0123</h3>
+                        <p class="">(Hà Nội)</p>
+                    </div>
+                    <div class="first_footer-right-download-left-2">
+                        <h3 class="first_footer-right-download-left-title">082.233.3555</h3>
+                        <p class="">(TP. ồ Chí Minh)</p>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="second_footer">
+        <div class="second_footer-left">
+            <h3 class="second_footer-left-title">Báo điện tử</h3>
+            <img class="second_footer-left-img" src="./images/logo-vnexpress.svg" alt="">
+        </div>
+        <div class="second_footer-right">
+            <span class="second_footer-right-info second_footer-right-info-1">RSS</span>
+            <span class="second_footer-right-info">Theo dõi VnEpress Trên</span>
+            <span class="second_footer-right-logo">
+                <icon class="ti-facebook"></icon>
+            </span>
+            <span class="second_footer-right-logo">
+                <icon class="ti-twitter-alt"></icon>
+            </span>
+            <span class="second_footer-right-logo">
+                <icon class="ti-youtube"></icon>
+            </span>
+        </div>
+    </div>
+
+    <div class="third_footer">
+        <div class="third_footer-first">
+            <h3 class="third_footer-first-title">Báo tiếng Việt nhiều người xem nhất</h3>
+            <p class="third_footer-first-description">Thuộc Bộ Khoa học Công nghệ
+                Số giấy phép: 548/GP-BTTTT ngày 24/08/2021</p>
+        </div>
+        <div class="third_footer-first">
+            <p class="third_footer-first-description-1">Tổng biên tập: Phạm Hiếu</p>
+            <p class="third_footer-first-description">Địa chỉ: Tầng 5, Tòa nhà FPT, 17 phố Duy Tân, Cầu Giấy, Hà Nội
+                Điện thoại: 024 7300 8899 - máy lẻ 4500</p>
+        </div>
+        <div class="third_footer-first">
+            <p class="third_footer-first-description-1">© 1997-2022. Toàn bộ bản quyền thuộc VnExpress</p>
+        </div>
+    </div>
+
+    <script>
+        var containerElement = document.querySelector('.header_all-list')
+        document.querySelector('.header_all_container').onclick = function(){
+            containerElement.classList.toggle('active')
+        }
+        document.querySelector('.header_all-list_heading-close').onclick = function(){
+            containerElement.classList.toggle('active')
+        }
+
+        containerElement.onclick = function(e){
+            e.stopPropagation()
+        }
+           
+        
+    </script>
+</body>
+</html>
